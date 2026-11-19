@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piyush Yadav — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo-badge" aria-label="Piyush Yadav Home">PY</a>
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Piyush Yadav</h1>
+      <p class="hero-subtitle">Computer Science Undergraduate</p>
+      <p class="hero-desc">
+        I'm a BTech Computer Science student at JECRC University who turns data
+        into decisions — through machine learning models, exploratory analysis,
+        and thoughtful prompt design.
+      </p>
+      <a href="#projects" class="btn-primary">See my projects</a>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-text">
+          <p>
+            I'm a BTech Computer Science student at JECRC University, Jaipur, working through a
+            curriculum that runs from 2025 to 2029. My focus areas are artificial intelligence and
+            machine learning, and I enjoy the part of a project where raw data starts turning into
+            something useful — a pattern, a prediction, a chart that makes sense of the noise.
+          </p>
+          <p>
+            Alongside coursework, I build small projects to practice the full pipeline: exploring and
+            visualizing data, training models, and designing prompts that get useful results out of
+            AI systems. I'm currently looking for opportunities to apply these skills to real AI and
+            ML problems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>AI &amp; Machine Learning</h3>
+            <ul>
+              <li>Exploratory Data Analysis</li>
+              <li>Supervised &amp; Unsupervised ML</li>
+              <li>Prompt Engineering &amp; LLM Evaluation</li>
+              <li>RAG Pipelines &amp; Vector Databases</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Programming &amp; Web</h3>
+            <ul>
+              <li>Python</li>
+              <li>C++</li>
+              <li>HTML5 &amp; CSS3</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Tools &amp; Platforms</h3>
+            <ul>
+              <li>VS Code &amp; Code::Blocks</li>
+              <li>Git &amp; GitHub</li>
+              <li>ChromaDB &amp; Jupyter</li>
+              <li>Replit &amp; Bolt.new</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <span class="project-tag">Python • Recommendation Engine</span>
+            <h3>Bull's Eye — Smart PC Build System</h3>
+            <p>
+              A Python-based hardware recommendation engine that matches user budgets and
+              workloads with compatible CPU, GPU, and motherboard configurations.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <span class="project-tag">AI • Vector Search</span>
+            <h3>ChromaDB RAG Pipeline</h3>
+            <p>
+              End-to-end Retrieval-Augmented Generation workflow using semantic chunking,
+              nearest-neighbor embeddings, and grounded LLM responses.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <span class="project-tag">Full Stack • Campus Platform</span>
+            <h3>JECRC Alumni Connect</h3>
+            <p>
+              A mentorship and networking platform connecting computer science undergraduates
+              with university alumni for career and project guidance.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <span class="project-tag">Web App • Student Utility</span>
+            <h3>DSA Karo</h3>
+            <p>
+              Interactive problem-tracking and algorithm practice web application designed
+              to help engineering students organize daily coding preparation.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Piyush Yadav • Jaipur, Rajasthan</p>
+      <div class="footer-actions">
+        <button id="copyEmailBtn" class="btn-outline" data-email="yadavpiyush.official1@gmail.com">
+          Copy Email
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
